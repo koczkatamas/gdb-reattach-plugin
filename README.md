@@ -3,9 +3,13 @@ GDB command for reattaching to the new instance of the process (help exploit dev
 
 ## Usage
 Load plugin (while running GDB or by adding to ~/.gdbinit):
-    source gdb-reattach.py
+```
+source gdb-reattach.py
+```
     
 Reattach:
-    ra [processName]
-    
+```
+ra [processName]
+```
+
 Where processName is only required the first time (will be passed to the pidof command) then cached.
