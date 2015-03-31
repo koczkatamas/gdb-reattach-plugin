@@ -1,5 +1,5 @@
 # gdb-reattach-plugin
-GDB command for reattaching to the new instance of the process (help exploit development)
+GDB command for reattaching to the new instance of the latest running process (it can help exploit development with pwntools for example).
 
 ## Usage
 Load plugin (while running GDB or by adding to ~/.gdbinit):
